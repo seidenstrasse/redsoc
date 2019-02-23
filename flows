@@ -1,0 +1,2188 @@
+[
+    {
+        "id": "1cf10e0.f5712f2",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ca275708.c03638",
+        "type": "tab",
+        "label": "Von Station 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "520262bc.48395c",
+        "type": "tab",
+        "label": "Von Station 2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "4f2877b5.e81608",
+        "type": "tab",
+        "label": "Von Station 3",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b7954ecb.b0377",
+        "type": "tab",
+        "label": "Von Station 4",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ddd7efce.e81e7",
+        "type": "tab",
+        "label": "Von Station 5",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d9304521.3172e8",
+        "type": "tab",
+        "label": "System in Use",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "6ecc5478.224c8c",
+        "type": "tab",
+        "label": "Admin Interface",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f87f419d.e5ec4",
+        "type": "tab",
+        "label": "Router Control",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "51af4d0d.a21da4",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "5e80b119.5a6d3",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "5c0293af.b88f1c",
+        "type": "ui_group",
+        "z": "",
+        "name": "You are at BAR",
+        "tab": "c66cad8e.c0bc1",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "15cdc324.466a6d",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Von Station 4",
+        "icon": "dashboard",
+        "order": 4
+    },
+    {
+        "id": "ff8d836c.86608",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Von Station 1",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "c66cad8e.c0bc1",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Von Station 2",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "ae5ff92d.7585b8",
+        "type": "ui_group",
+        "z": "",
+        "name": "You are at BUSHALTESTELLE",
+        "tab": "ff8d836c.86608",
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "ddc9dd6c.17b21",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Von Station 3",
+        "icon": "dashboard",
+        "order": 3
+    },
+    {
+        "id": "be7e479c.1235f8",
+        "type": "ui_group",
+        "z": "",
+        "name": "You are at INFOSHOP",
+        "tab": "ddc9dd6c.17b21",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f8408537.f61bd8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Von Station 5",
+        "icon": "dashboard",
+        "order": 5
+    },
+    {
+        "id": "7153666f.69bc58",
+        "type": "ui_group",
+        "z": "",
+        "name": "You are at STATION 5",
+        "tab": "f8408537.f61bd8",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "77e8d1fe.7f039",
+        "type": "ui_group",
+        "z": "",
+        "name": "You are at DESKWORK",
+        "tab": "15cdc324.466a6d",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f8352bfd.250928",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Admin",
+        "icon": "dashboard",
+        "order": 6
+    },
+    {
+        "id": "50b445bf.833c8c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Status",
+        "tab": "f8352bfd.250928",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b7745040.336",
+        "type": "ui_group",
+        "z": "",
+        "name": "Steuerung",
+        "tab": "f8352bfd.250928",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7b886d39.148e74",
+        "type": "ui_button",
+        "z": "ca275708.c03638",
+        "name": "Routing von Station 1 TO Station 2",
+        "group": "ae5ff92d.7585b8",
+        "order": 0,
+        "width": "10",
+        "height": "2",
+        "passthru": false,
+        "label": "TO BAR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "str",
+        "topic": "von_station_1",
+        "x": 460,
+        "y": 60,
+        "wires": [
+            [
+                "f46b2e71.3a7ef",
+                "3ce6d850.71a0f8"
+            ]
+        ]
+    },
+    {
+        "id": "f46b2e71.3a7ef",
+        "type": "mqtt out",
+        "z": "ca275708.c03638",
+        "name": "",
+        "topic": "/von_station_1",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 780,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "bfc23e60.82b38",
+        "type": "ui_text",
+        "z": "ca275708.c03638",
+        "group": "ae5ff92d.7585b8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Currently sending to Station:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 490,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "e18d0754.66d868",
+        "type": "mqtt in",
+        "z": "ca275708.c03638",
+        "name": "",
+        "topic": "/von_station_1",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 290,
+        "y": 280,
+        "wires": [
+            [
+                "bfc23e60.82b38"
+            ]
+        ]
+    },
+    {
+        "id": "6f277463.619d1c",
+        "type": "ui_button",
+        "z": "ca275708.c03638",
+        "name": "Routing von Station 1 TO Station 3",
+        "group": "ae5ff92d.7585b8",
+        "order": 0,
+        "width": "10",
+        "height": "2",
+        "passthru": false,
+        "label": "TO INFOSHOP",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "3",
+        "payloadType": "str",
+        "topic": "von_station_1",
+        "x": 450,
+        "y": 100,
+        "wires": [
+            [
+                "f46b2e71.3a7ef",
+                "3ce6d850.71a0f8"
+            ]
+        ]
+    },
+    {
+        "id": "86749412.36cc38",
+        "type": "ui_button",
+        "z": "ca275708.c03638",
+        "name": "Routing von Station 1 TO Station 4",
+        "group": "ae5ff92d.7585b8",
+        "order": 0,
+        "width": "10",
+        "height": "2",
+        "passthru": false,
+        "label": "TO DESKWORK",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "4",
+        "payloadType": "str",
+        "topic": "von_station_1",
+        "x": 450,
+        "y": 140,
+        "wires": [
+            [
+                "f46b2e71.3a7ef",
+                "3ce6d850.71a0f8"
+            ]
+        ]
+    },
+    {
+        "id": "a2ecfa97.dbefd8",
+        "type": "ui_button",
+        "z": "ca275708.c03638",
+        "name": "Routing von Station 1 TO Station 5",
+        "group": "ae5ff92d.7585b8",
+        "order": 0,
+        "width": "10",
+        "height": "2",
+        "passthru": false,
+        "label": "TO Station 5",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "str",
+        "topic": "von_station_1",
+        "x": 450,
+        "y": 180,
+        "wires": [
+            [
+                "f46b2e71.3a7ef",
+                "3ce6d850.71a0f8"
+            ]
+        ]
+    },
+    {
+        "id": "b6cf9524.f903e8",
+        "type": "ui_button",
+        "z": "520262bc.48395c",
+        "name": "Routing von Station 2 TO Station 1",
+        "group": "5c0293af.b88f1c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO BUSHALTESTELLE",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "von_station_2",
+        "x": 200,
+        "y": 60,
+        "wires": [
+            [
+                "aed2b376.34db4",
+                "929f8437.1efdb8"
+            ]
+        ]
+    },
+    {
+        "id": "aed2b376.34db4",
+        "type": "mqtt out",
+        "z": "520262bc.48395c",
+        "name": "",
+        "topic": "/von_station_2",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 520,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "6a59e3e.6ac2f1c",
+        "type": "ui_button",
+        "z": "520262bc.48395c",
+        "name": "Routing von Station 2 TO Station 3",
+        "group": "5c0293af.b88f1c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO INFOSHOP",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "3",
+        "payloadType": "str",
+        "topic": "von_station_2",
+        "x": 190,
+        "y": 100,
+        "wires": [
+            [
+                "aed2b376.34db4",
+                "929f8437.1efdb8"
+            ]
+        ]
+    },
+    {
+        "id": "fb9734a7.c50468",
+        "type": "ui_button",
+        "z": "520262bc.48395c",
+        "name": "Routing von Station 2 TO Station 4",
+        "group": "5c0293af.b88f1c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO DESKWORK",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "4",
+        "payloadType": "str",
+        "topic": "von_station_2",
+        "x": 190,
+        "y": 140,
+        "wires": [
+            [
+                "aed2b376.34db4",
+                "929f8437.1efdb8"
+            ]
+        ]
+    },
+    {
+        "id": "c038447a.54e838",
+        "type": "ui_button",
+        "z": "520262bc.48395c",
+        "name": "Routing von Station 2 TO Station 5",
+        "group": "5c0293af.b88f1c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO Station 5",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "str",
+        "topic": "von_station_2",
+        "x": 190,
+        "y": 180,
+        "wires": [
+            [
+                "aed2b376.34db4",
+                "929f8437.1efdb8"
+            ]
+        ]
+    },
+    {
+        "id": "65a836bc.a90ec8",
+        "type": "ui_text",
+        "z": "520262bc.48395c",
+        "group": "5c0293af.b88f1c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Currently sending to Station:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 480,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "c97668da.031b28",
+        "type": "mqtt in",
+        "z": "520262bc.48395c",
+        "name": "",
+        "topic": "/von_station_2",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 280,
+        "y": 220,
+        "wires": [
+            [
+                "65a836bc.a90ec8"
+            ]
+        ]
+    },
+    {
+        "id": "8a1c584d.fa8488",
+        "type": "ui_button",
+        "z": "4f2877b5.e81608",
+        "name": "Routing von Station 3 TO Station 1",
+        "group": "be7e479c.1235f8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO BUSHALTESTELLE",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "von_station_3",
+        "x": 200,
+        "y": 40,
+        "wires": [
+            [
+                "637c4240.c92a3c",
+                "6e87138c.453e8c"
+            ]
+        ]
+    },
+    {
+        "id": "637c4240.c92a3c",
+        "type": "mqtt out",
+        "z": "4f2877b5.e81608",
+        "name": "",
+        "topic": "/von_station_3",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 520,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "acb00c8b.f4144",
+        "type": "ui_button",
+        "z": "4f2877b5.e81608",
+        "name": "Routing von Station 3 TO Station 2",
+        "group": "be7e479c.1235f8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO BAR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "str",
+        "topic": "von_station_3",
+        "x": 190,
+        "y": 80,
+        "wires": [
+            [
+                "637c4240.c92a3c",
+                "6e87138c.453e8c"
+            ]
+        ]
+    },
+    {
+        "id": "e435d858.0facc8",
+        "type": "ui_button",
+        "z": "4f2877b5.e81608",
+        "name": "Routing von Station 3 TO Station 4",
+        "group": "be7e479c.1235f8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO DESKWORK",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "4",
+        "payloadType": "str",
+        "topic": "von_station_3",
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "637c4240.c92a3c",
+                "6e87138c.453e8c"
+            ]
+        ]
+    },
+    {
+        "id": "d53a713b.a9c8c",
+        "type": "ui_button",
+        "z": "4f2877b5.e81608",
+        "name": "Routing von Station 3 TO Station 5",
+        "group": "be7e479c.1235f8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO Station 5",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "str",
+        "topic": "von_station_3",
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "637c4240.c92a3c",
+                "6e87138c.453e8c"
+            ]
+        ]
+    },
+    {
+        "id": "682878b2.e76a58",
+        "type": "ui_text",
+        "z": "4f2877b5.e81608",
+        "group": "be7e479c.1235f8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Currently sending to Station:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 480,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "81585679.12aa68",
+        "type": "mqtt in",
+        "z": "4f2877b5.e81608",
+        "name": "",
+        "topic": "/von_station_3",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 280,
+        "y": 200,
+        "wires": [
+            [
+                "682878b2.e76a58"
+            ]
+        ]
+    },
+    {
+        "id": "f4d4cc3b.5458",
+        "type": "ui_button",
+        "z": "b7954ecb.b0377",
+        "name": "Routing von Station 4 TO Station 1",
+        "group": "77e8d1fe.7f039",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO BUSHALTESTELLE",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "von_station_4",
+        "x": 200,
+        "y": 40,
+        "wires": [
+            [
+                "78da401b.34e7",
+                "a7076db7.f02fb"
+            ]
+        ]
+    },
+    {
+        "id": "78da401b.34e7",
+        "type": "mqtt out",
+        "z": "b7954ecb.b0377",
+        "name": "",
+        "topic": "/von_station_4",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 520,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "e2edbadd.e3f408",
+        "type": "ui_text",
+        "z": "b7954ecb.b0377",
+        "group": "77e8d1fe.7f039",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Currently sending to Station:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 480,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "672ba9fa.d11088",
+        "type": "mqtt in",
+        "z": "b7954ecb.b0377",
+        "name": "",
+        "topic": "/von_station_4",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 280,
+        "y": 240,
+        "wires": [
+            [
+                "e2edbadd.e3f408"
+            ]
+        ]
+    },
+    {
+        "id": "2ad1bd5f.050742",
+        "type": "ui_button",
+        "z": "b7954ecb.b0377",
+        "name": "Routing von Station 4 TO Station 2",
+        "group": "77e8d1fe.7f039",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO BAR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "str",
+        "topic": "von_station_4",
+        "x": 190,
+        "y": 80,
+        "wires": [
+            [
+                "78da401b.34e7",
+                "a7076db7.f02fb"
+            ]
+        ]
+    },
+    {
+        "id": "8811a38c.4f121",
+        "type": "ui_button",
+        "z": "b7954ecb.b0377",
+        "name": "Routing von Station 4 TO Station 3",
+        "group": "77e8d1fe.7f039",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO INFOSHOP",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "3",
+        "payloadType": "str",
+        "topic": "von_station_4",
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "78da401b.34e7",
+                "a7076db7.f02fb"
+            ]
+        ]
+    },
+    {
+        "id": "754e34c.2204ccc",
+        "type": "ui_button",
+        "z": "b7954ecb.b0377",
+        "name": "Routing von Station 4 TO Station 5",
+        "group": "77e8d1fe.7f039",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO Station 5",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "str",
+        "topic": "von_station_4",
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "78da401b.34e7",
+                "a7076db7.f02fb"
+            ]
+        ]
+    },
+    {
+        "id": "fd727ee4.71808",
+        "type": "ui_button",
+        "z": "ddd7efce.e81e7",
+        "name": "Routing von Station 2 TO Station 1",
+        "group": "7153666f.69bc58",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO Station 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "von_station_2",
+        "x": 200,
+        "y": 40,
+        "wires": [
+            [
+                "95211ade.7ad398",
+                "ce47dbee.3b6bb8"
+            ]
+        ]
+    },
+    {
+        "id": "95211ade.7ad398",
+        "type": "mqtt out",
+        "z": "ddd7efce.e81e7",
+        "name": "",
+        "topic": "/von_station_5",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 520,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "e3893d17.d151",
+        "type": "ui_button",
+        "z": "ddd7efce.e81e7",
+        "name": "Routing von Station 2 TO Station 3",
+        "group": "7153666f.69bc58",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO Station 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "3",
+        "payloadType": "str",
+        "topic": "von_station_2",
+        "x": 190,
+        "y": 80,
+        "wires": [
+            [
+                "95211ade.7ad398",
+                "ce47dbee.3b6bb8"
+            ]
+        ]
+    },
+    {
+        "id": "e1b6052e.5a7d08",
+        "type": "ui_button",
+        "z": "ddd7efce.e81e7",
+        "name": "Routing von Station 2 TO Station 4",
+        "group": "7153666f.69bc58",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO Station 4",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "4",
+        "payloadType": "str",
+        "topic": "von_station_2",
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "95211ade.7ad398",
+                "ce47dbee.3b6bb8"
+            ]
+        ]
+    },
+    {
+        "id": "45f38a90.537394",
+        "type": "ui_button",
+        "z": "ddd7efce.e81e7",
+        "name": "Routing von Station 2 TO Station 5",
+        "group": "7153666f.69bc58",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "TO Station 5",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "str",
+        "topic": "von_station_2",
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "95211ade.7ad398",
+                "ce47dbee.3b6bb8"
+            ]
+        ]
+    },
+    {
+        "id": "8e0de255.0271a",
+        "type": "ui_text",
+        "z": "ddd7efce.e81e7",
+        "group": "7153666f.69bc58",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Currently sending to Station:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 480,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b74efcf9.aa94f",
+        "type": "mqtt in",
+        "z": "ddd7efce.e81e7",
+        "name": "",
+        "topic": "/von_station_5",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 280,
+        "y": 200,
+        "wires": [
+            [
+                "8e0de255.0271a"
+            ]
+        ]
+    },
+    {
+        "id": "ce47dbee.3b6bb8",
+        "type": "trigger",
+        "z": "ddd7efce.e81e7",
+        "op1": "true",
+        "op2": "",
+        "op1type": "str",
+        "op2type": "nul",
+        "duration": "50",
+        "extend": false,
+        "units": "ms",
+        "reset": "false",
+        "bytopic": "all",
+        "name": "SYSTEM IN USE",
+        "x": 510,
+        "y": 120,
+        "wires": [
+            [
+                "1fea0f2.ed77ff1"
+            ]
+        ]
+    },
+    {
+        "id": "1fea0f2.ed77ff1",
+        "type": "mqtt out",
+        "z": "ddd7efce.e81e7",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 730,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "8cd51a87.4b3768",
+        "type": "ui_text",
+        "z": "ddd7efce.e81e7",
+        "group": "7153666f.69bc58",
+        "order": 15,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "System in Use?",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 530,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "f019d2fa.7442a",
+        "type": "mqtt in",
+        "z": "ddd7efce.e81e7",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 310,
+        "y": 360,
+        "wires": [
+            [
+                "8cd51a87.4b3768"
+            ]
+        ]
+    },
+    {
+        "id": "a7076db7.f02fb",
+        "type": "trigger",
+        "z": "b7954ecb.b0377",
+        "op1": "true",
+        "op2": "",
+        "op1type": "str",
+        "op2type": "nul",
+        "duration": "50",
+        "extend": false,
+        "units": "ms",
+        "reset": "false",
+        "bytopic": "all",
+        "name": "SYSTEM IN USE",
+        "x": 530,
+        "y": 140,
+        "wires": [
+            [
+                "43a4362a.31a148"
+            ]
+        ]
+    },
+    {
+        "id": "43a4362a.31a148",
+        "type": "mqtt out",
+        "z": "b7954ecb.b0377",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 750,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "33a461ae.daec7e",
+        "type": "ui_text",
+        "z": "b7954ecb.b0377",
+        "group": "77e8d1fe.7f039",
+        "order": 15,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "System in Use?",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 520,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "825d6be5.37ab68",
+        "type": "mqtt in",
+        "z": "b7954ecb.b0377",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 300,
+        "y": 360,
+        "wires": [
+            [
+                "33a461ae.daec7e"
+            ]
+        ]
+    },
+    {
+        "id": "9ae19656.96a7e8",
+        "type": "ui_text",
+        "z": "ca275708.c03638",
+        "group": "ae5ff92d.7585b8",
+        "order": 15,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "System in Use?",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 480,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8648713e.62b97",
+        "type": "mqtt in",
+        "z": "ca275708.c03638",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 260,
+        "y": 400,
+        "wires": [
+            [
+                "9ae19656.96a7e8"
+            ]
+        ]
+    },
+    {
+        "id": "4c67a4a2.5033cc",
+        "type": "ui_text",
+        "z": "520262bc.48395c",
+        "group": "5c0293af.b88f1c",
+        "order": 15,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "System in Use?",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 480,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "7eabef69.8a13f",
+        "type": "mqtt in",
+        "z": "520262bc.48395c",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 260,
+        "y": 320,
+        "wires": [
+            [
+                "4c67a4a2.5033cc"
+            ]
+        ]
+    },
+    {
+        "id": "9968d157.af9ef",
+        "type": "ui_text",
+        "z": "4f2877b5.e81608",
+        "group": "be7e479c.1235f8",
+        "order": 15,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "System in Use?",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 520,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "323675ac.b83a2a",
+        "type": "mqtt in",
+        "z": "4f2877b5.e81608",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 300,
+        "y": 280,
+        "wires": [
+            [
+                "9968d157.af9ef"
+            ]
+        ]
+    },
+    {
+        "id": "6e87138c.453e8c",
+        "type": "trigger",
+        "z": "4f2877b5.e81608",
+        "op1": "true",
+        "op2": "",
+        "op1type": "str",
+        "op2type": "nul",
+        "duration": "50",
+        "extend": false,
+        "units": "ms",
+        "reset": "false",
+        "bytopic": "all",
+        "name": "SYSTEM IN USE",
+        "x": 530,
+        "y": 140,
+        "wires": [
+            [
+                "f7ffee5.b3b371"
+            ]
+        ]
+    },
+    {
+        "id": "f7ffee5.b3b371",
+        "type": "mqtt out",
+        "z": "4f2877b5.e81608",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 750,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "929f8437.1efdb8",
+        "type": "trigger",
+        "z": "520262bc.48395c",
+        "op1": "true",
+        "op2": "",
+        "op1type": "str",
+        "op2type": "nul",
+        "duration": "50",
+        "extend": false,
+        "units": "ms",
+        "reset": "false",
+        "bytopic": "all",
+        "name": "SYSTEM IN USE",
+        "x": 530,
+        "y": 160,
+        "wires": [
+            [
+                "89ae1229.129e4"
+            ]
+        ]
+    },
+    {
+        "id": "89ae1229.129e4",
+        "type": "mqtt out",
+        "z": "520262bc.48395c",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 750,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "3ce6d850.71a0f8",
+        "type": "trigger",
+        "z": "ca275708.c03638",
+        "op1": "true",
+        "op2": "",
+        "op1type": "str",
+        "op2type": "nul",
+        "duration": "50",
+        "extend": false,
+        "units": "ms",
+        "reset": "false",
+        "bytopic": "all",
+        "name": "SYSTEM IN USE",
+        "x": 800,
+        "y": 160,
+        "wires": [
+            [
+                "3d4b9d10.c8d012"
+            ]
+        ]
+    },
+    {
+        "id": "3d4b9d10.c8d012",
+        "type": "mqtt out",
+        "z": "ca275708.c03638",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 1020,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c3265985.5311a8",
+        "type": "ui_template",
+        "z": "ca275708.c03638",
+        "group": "ae5ff92d.7585b8",
+        "name": "StatusLED",
+        "order": 6,
+        "width": "10",
+        "height": "3",
+        "format": "<style>\n.led-green {\nmargin: 0 auto;\nwidth: 70px;\nheight: 70px;\nbackground-color: #ABFF00;\nborder-radius: 50%;\n{\n</style>\n<table>\n<tr>\n<td><div class=\"led-green\" style=\"background-color:{{msg.payload}}\"></div></td>\n</tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 510,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "20b485be.91c7ca",
+        "type": "mqtt in",
+        "z": "d9304521.3172e8",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "8a845987.a92f18"
+            ]
+        ]
+    },
+    {
+        "id": "69a92115.0d70b",
+        "type": "mqtt out",
+        "z": "d9304521.3172e8",
+        "name": "",
+        "topic": "/system_in_use_led",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 710,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "8a845987.a92f18",
+        "type": "trigger",
+        "z": "d9304521.3172e8",
+        "op1": "#ff0000",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "0",
+        "extend": false,
+        "units": "ms",
+        "reset": "false",
+        "bytopic": "all",
+        "name": "",
+        "x": 400,
+        "y": 140,
+        "wires": [
+            [
+                "69a92115.0d70b"
+            ]
+        ]
+    },
+    {
+        "id": "af315e98.897e1",
+        "type": "mqtt in",
+        "z": "ca275708.c03638",
+        "name": "",
+        "topic": "/system_in_use_led",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 280,
+        "y": 480,
+        "wires": [
+            [
+                "c3265985.5311a8"
+            ]
+        ]
+    },
+    {
+        "id": "f0254bab.309738",
+        "type": "mqtt in",
+        "z": "d9304521.3172e8",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 200,
+        "y": 180,
+        "wires": [
+            [
+                "97176939.7920e8"
+            ]
+        ]
+    },
+    {
+        "id": "fbba3b49.604958",
+        "type": "mqtt out",
+        "z": "d9304521.3172e8",
+        "name": "",
+        "topic": "/system_in_use_led",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 720,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "97176939.7920e8",
+        "type": "trigger",
+        "z": "d9304521.3172e8",
+        "op1": "#ABFF00",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "0",
+        "extend": false,
+        "units": "ms",
+        "reset": "true",
+        "bytopic": "all",
+        "name": "",
+        "x": 410,
+        "y": 200,
+        "wires": [
+            [
+                "fbba3b49.604958"
+            ]
+        ]
+    },
+    {
+        "id": "6ae9d40d.1e763c",
+        "type": "ui_button",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "group": "b7745040.336",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset System",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#FF0000",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "str",
+        "topic": "/system_in_use",
+        "x": 120,
+        "y": 40,
+        "wires": [
+            [
+                "4f8aa165.993ac"
+            ]
+        ]
+    },
+    {
+        "id": "4f8aa165.993ac",
+        "type": "mqtt out",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 390,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "cda4d3d1.c1c36",
+        "type": "ui_template",
+        "z": "520262bc.48395c",
+        "group": "5c0293af.b88f1c",
+        "name": "StatusLED",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.led-green {\nmargin: 0 auto;\nwidth: 70px;\nheight: 70px;\nbackground-color: #ABFF00;\nborder-radius: 50%;\n{\n</style>\n<table>\n<tr>\n<td><div class=\"led-green\" style=\"background-color:{{msg.payload}}\"></div></td>\n</tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 510,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2dd9b02.e47385",
+        "type": "mqtt in",
+        "z": "520262bc.48395c",
+        "name": "",
+        "topic": "/system_in_use_led",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 280,
+        "y": 400,
+        "wires": [
+            [
+                "cda4d3d1.c1c36"
+            ]
+        ]
+    },
+    {
+        "id": "5f9db95.fbf0148",
+        "type": "ui_template",
+        "z": "4f2877b5.e81608",
+        "group": "be7e479c.1235f8",
+        "name": "StatusLED",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.led-green {\nmargin: 0 auto;\nwidth: 70px;\nheight: 70px;\nbackground-color: #ABFF00;\nborder-radius: 50%;\n{\n</style>\n<table>\n<tr>\n<td><div class=\"led-green\" style=\"background-color:{{msg.payload}}\"></div></td>\n</tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 550,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe5de5f2.f4eff8",
+        "type": "mqtt in",
+        "z": "4f2877b5.e81608",
+        "name": "",
+        "topic": "/system_in_use_led",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 320,
+        "y": 360,
+        "wires": [
+            [
+                "5f9db95.fbf0148"
+            ]
+        ]
+    },
+    {
+        "id": "2f2bcfa9.efec7",
+        "type": "ui_template",
+        "z": "b7954ecb.b0377",
+        "group": "77e8d1fe.7f039",
+        "name": "StatusLED",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.led-green {\nmargin: 0 auto;\nwidth: 70px;\nheight: 70px;\nbackground-color: #ABFF00;\nborder-radius: 50%;\n{\n</style>\n<table>\n<tr>\n<td><div class=\"led-green\" style=\"background-color:{{msg.payload}}\"></div></td>\n</tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 530,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5596ab0a.6c3d14",
+        "type": "mqtt in",
+        "z": "b7954ecb.b0377",
+        "name": "",
+        "topic": "/system_in_use_led",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 300,
+        "y": 400,
+        "wires": [
+            [
+                "2f2bcfa9.efec7"
+            ]
+        ]
+    },
+    {
+        "id": "bd96938e.99fe3",
+        "type": "ui_template",
+        "z": "ddd7efce.e81e7",
+        "group": "7153666f.69bc58",
+        "name": "StatusLED",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.led-green {\nmargin: 0 auto;\nwidth: 70px;\nheight: 70px;\nbackground-color: #ABFF00;\nborder-radius: 50%;\n{\n</style>\n<table>\n<tr>\n<td><div class=\"led-green\" style=\"background-color:{{msg.payload}}\"></div></td>\n</tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 550,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5dfa176c.96bd68",
+        "type": "mqtt in",
+        "z": "ddd7efce.e81e7",
+        "name": "",
+        "topic": "/system_in_use_led",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 320,
+        "y": 420,
+        "wires": [
+            [
+                "bd96938e.99fe3"
+            ]
+        ]
+    },
+    {
+        "id": "b34856a6.95fc68",
+        "type": "ui_template",
+        "z": "6ecc5478.224c8c",
+        "group": "b7745040.336",
+        "name": "StatusLED",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.led-green {\nmargin: 0 auto;\nwidth: 70px;\nheight: 70px;\nbackground-color: #ABFF00;\nborder-radius: 50%;\n{\n</style>\n<table>\n<tr>\n<td><div class=\"led-green\" style=\"background-color:{{msg.payload}}\"></div></td>\n</tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 390,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "69c6bd1.561e644",
+        "type": "mqtt in",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/system_in_use_led",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 160,
+        "y": 100,
+        "wires": [
+            [
+                "b34856a6.95fc68",
+                "3fad7743.ca5728"
+            ]
+        ]
+    },
+    {
+        "id": "f357328d.1352f",
+        "type": "ui_text",
+        "z": "6ecc5478.224c8c",
+        "group": "50b445bf.833c8c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Station 1 routing request to:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 360,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "a0806caa.f61de",
+        "type": "mqtt in",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/von_station_1",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "f357328d.1352f"
+            ]
+        ]
+    },
+    {
+        "id": "f507d94d.ac5578",
+        "type": "ui_text",
+        "z": "6ecc5478.224c8c",
+        "group": "50b445bf.833c8c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Station 2 routing request to:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 360,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b92743d9.88924",
+        "type": "mqtt in",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/von_station_2",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 160,
+        "y": 300,
+        "wires": [
+            [
+                "f507d94d.ac5578"
+            ]
+        ]
+    },
+    {
+        "id": "4e8a4c06.075704",
+        "type": "ui_text",
+        "z": "6ecc5478.224c8c",
+        "group": "50b445bf.833c8c",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Station 3 routing request to:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 360,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "2d4bd7b6.9ffb78",
+        "type": "mqtt in",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/von_station_3",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 160,
+        "y": 400,
+        "wires": [
+            [
+                "4e8a4c06.075704"
+            ]
+        ]
+    },
+    {
+        "id": "d74c9569.4331c8",
+        "type": "ui_text",
+        "z": "6ecc5478.224c8c",
+        "group": "50b445bf.833c8c",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Station 4 routing request to:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 360,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "45c40b80.40a514",
+        "type": "mqtt in",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/von_station_4",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 160,
+        "y": 500,
+        "wires": [
+            [
+                "d74c9569.4331c8"
+            ]
+        ]
+    },
+    {
+        "id": "27e90d6b.9bcb42",
+        "type": "ui_text",
+        "z": "6ecc5478.224c8c",
+        "group": "50b445bf.833c8c",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Station 5 routing request to:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 360,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "2b3c3a92.f6def6",
+        "type": "mqtt in",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/von_station_5",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 160,
+        "y": 600,
+        "wires": [
+            [
+                "27e90d6b.9bcb42"
+            ]
+        ]
+    },
+    {
+        "id": "a7c00756.82ad88",
+        "type": "ui_button",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "group": "b7745040.336",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset Station 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "NIX",
+        "payloadType": "str",
+        "topic": "/von_Station_1",
+        "x": 160,
+        "y": 220,
+        "wires": [
+            [
+                "e386e4df.11b7a8"
+            ]
+        ]
+    },
+    {
+        "id": "e386e4df.11b7a8",
+        "type": "mqtt out",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/von_station_1",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 320,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6a14905d.3a8f",
+        "type": "ui_button",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "group": "b7745040.336",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset Station 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "NIX",
+        "payloadType": "str",
+        "topic": "/von_Station_2",
+        "x": 160,
+        "y": 340,
+        "wires": [
+            [
+                "dc4938ab.d9c8b8"
+            ]
+        ]
+    },
+    {
+        "id": "dc4938ab.d9c8b8",
+        "type": "mqtt out",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/von_station_2",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 320,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "8e7b7670.be8fb8",
+        "type": "ui_button",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "group": "b7745040.336",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset Station 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "NIX",
+        "payloadType": "str",
+        "topic": "/von_Station_3",
+        "x": 160,
+        "y": 440,
+        "wires": [
+            [
+                "5d3c3c1e.bf7bb4"
+            ]
+        ]
+    },
+    {
+        "id": "5d3c3c1e.bf7bb4",
+        "type": "mqtt out",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/von_station_3",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 320,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "9ef5cc9b.c6e8b",
+        "type": "ui_button",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "group": "b7745040.336",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset Station 4",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "NIX",
+        "payloadType": "str",
+        "topic": "/von_Station_4",
+        "x": 160,
+        "y": 540,
+        "wires": [
+            [
+                "37be8de9.b67ac2"
+            ]
+        ]
+    },
+    {
+        "id": "37be8de9.b67ac2",
+        "type": "mqtt out",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/von_station_4",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 320,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "10638173.40c5cf",
+        "type": "ui_button",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "group": "b7745040.336",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset Station 5",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "NIX",
+        "payloadType": "str",
+        "topic": "/von_Station_5",
+        "x": 160,
+        "y": 640,
+        "wires": [
+            [
+                "8e4bbb53.9efc88"
+            ]
+        ]
+    },
+    {
+        "id": "8e4bbb53.9efc88",
+        "type": "mqtt out",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/von_station_5",
+        "qos": "",
+        "retain": "",
+        "broker": "5e80b119.5a6d3",
+        "x": 320,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "3fad7743.ca5728",
+        "type": "ui_template",
+        "z": "6ecc5478.224c8c",
+        "group": "50b445bf.833c8c",
+        "name": "StatusLED",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.led-green {\nmargin: 0 auto;\nwidth: 70px;\nheight: 70px;\nbackground-color: #ABFF00;\nborder-radius: 50%;\n{\n</style>\n<table>\n<tr>\n<td><div class=\"led-green\" style=\"background-color:{{msg.payload}}\"></div></td>\n</tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 390,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18346754.8db309",
+        "type": "ui_text",
+        "z": "6ecc5478.224c8c",
+        "group": "50b445bf.833c8c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Systemstatus: IN USE:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 340,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "eaec853.60e8478",
+        "type": "mqtt in",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 160,
+        "y": 700,
+        "wires": [
+            [
+                "18346754.8db309"
+            ]
+        ]
+    },
+    {
+        "id": "9fd46f0a.cbdc3",
+        "type": "ui_audio",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "group": "ae5ff92d.7585b8",
+        "voice": "it-IT",
+        "always": true,
+        "x": 400,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "8afe7b67.c06fa8",
+        "type": "mqtt in",
+        "z": "6ecc5478.224c8c",
+        "name": "",
+        "topic": "/system_in_use",
+        "qos": "2",
+        "broker": "5e80b119.5a6d3",
+        "x": 230,
+        "y": 800,
+        "wires": [
+            [
+                "9fd46f0a.cbdc3"
+            ]
+        ]
+    }
+]
